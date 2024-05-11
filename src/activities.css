@@ -1,0 +1,14 @@
+h1{
+    margin-top: 50px;
+    color: #000;
+}
+.activity{
+    color: #ffff;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    margin: 50px 100px;
+    background-color: #2b1730;
+    box-shadow: 1px 2px 20px 7px #2b1730;
+}

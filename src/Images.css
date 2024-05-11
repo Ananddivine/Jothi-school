@@ -1,0 +1,42 @@
+.carousel {
+  width: 90%; 
+  margin: 0 auto; 
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 8%;
+  border-radius: 20px;
+
+}
+
+@media screen and (max-width: 620px) {
+  .carousel {
+    width: 90%; 
+    margin-top: 10%;
+  }
+}
+      
+    /* Change the color of the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: rgb(2, 2, 2); /* Set the desired color */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 0; /* Set font size to zero */
+}
+
+/* Set font size back to default for the symbols */
+.carousel-control-prev::before,
+.carousel-control-next::before {
+  font-size: initial; /* Reset font size to default */
+}
+

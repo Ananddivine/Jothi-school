@@ -1,0 +1,114 @@
+.footer{
+    background: #090d1b;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 1px 2px 20px 7px #00ddff;
+    margin-top: 30px;
+}
+
+.footer .container {
+    max-width: 1200px; 
+    color: #ffff;
+   
+}
+
+.footer .logo img {
+    max-width: 40%;
+    height: auto;
+}
+
+.footer .address p {
+    margin-bottom: 10px;
+    color: #cccc;
+}
+
+.footer .quick-links ul {
+    list-style: none;
+    padding: 0;
+    color: #ccc;
+}
+
+.footer .quick-links li {
+    margin-bottom: 5px;
+}
+
+.footer .quick-links a {
+    color: #333; /* Set link color */
+    text-decoration: none;
+    color: #ccc;
+
+}
+.footer .quick-links a:hover{
+    color: #00ddff;
+}
+
+.footer .contact-info p {
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+.footer .subscribe form {
+    display: flex;
+}
+
+.footer .subscribe input[type="email"] {
+    width: 70%; /* Adjust input width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer .subscribe button {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+
+@media (max-width: 767px) {
+    .footer .container {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+
+    .footer .col-md-2 {
+
+      margin: 20%;
+      padding: 30px;
+
+    }
+    .footer .contact-info{
+        margin-left: 40px;
+    }
+
+    .footer .subscribe input[type="email"] {
+        width: 60%; /* Adjust input width for smaller screens */
+    }
+
+    .footer .subscribe button {
+        width: 30%; /* Adjust button width for smaller screens */
+    }
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 99999;
+}
+
+
+
