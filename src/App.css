@@ -1,0 +1,10 @@
+.nav-bar{
+    background: #010315!important;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: aqua!important;
+}
+.dropdown-item:hover{
+    color: #010315!important;
+}
