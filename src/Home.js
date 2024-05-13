@@ -47,12 +47,12 @@ function Home() {
       <div className='Divine'>
         <h1>Welcome To Rising Kids</h1> {isVisible && (
           <p className='slide-out'>Best School In , Bangalore Rising Kids is fulfilling dreams for thousands of individuals<br />
-            in the heart of India's dream city, Bangalore, with over 15 schools scattered throughout the city.Across India,  <br />
+            in the heart of India's dream city, Bangalore, with over 15 schools scattered throughout the city. Across India,  <br />
             our 90+ schools have gained the trust of over 75k+ parents.Our schools in Bangalore promote the overall growth of <br />
             your child.Our curriculum concentrates on shaping responsible global citizens and critical thinkers, combining <br />
-            theoretical and practical knowledge for students to learn faster and become sharper.We understand that students<br />
+            theoretical and practical knowledge for students to learn faster and become sharper. We understand that students<br />
             must become their best selves in all fields, which is why we developed the SHARPER philosophy five core foundations<br />
-            that create a secure environment for our students to bloom with confidence.Rising Kids is the finest school in Bangalore,<br />
+            that create a secure environment for our students to bloom with confidence. Rising Kids is the finest school in Bangalore,<br />
             thanks to our exclusive teaching method guided by our SHARPER philosophy.we strive to prepare our students for the future by<br />
             offering world-class facilities and personalized attention.
           </p>)}

@@ -14,7 +14,7 @@ function Footer() {
                         </div>
                         <div className="address">
                             {/* Your address */}
-                            <p>#49,6th A Cross, Muniswamappa Layout,KANAKAGIRI, Banjara Layout, Horamavu Agra,Bangalore 560043</p>
+                            <p>#49, 6th A Cross, Muniswamappa Layout, Kanakagiri, Banjara Layout, Horamavu Agra, Bangalore 560043</p>
                         </div>
                     </div>
                     <div className="col-md-3">
