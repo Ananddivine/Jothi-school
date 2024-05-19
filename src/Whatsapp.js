@@ -5,7 +5,7 @@ function Whatsapp() {
     return (
         <div>
            
-            <a href="https://api.whatsapp.com/send?phone=8951671986" className="whatsapp-float btn btn-success" >
+            <a href="https://wa.me/+918951671986" className="whatsapp-float btn btn-success" >
                 <i className="fa fa-whatsapp"></i>
             </a>
         </div>
